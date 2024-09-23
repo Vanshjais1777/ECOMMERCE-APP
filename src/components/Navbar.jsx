@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 import { NavLink, Link } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext';
 
-const Navbar = () => {
+const NavBar = () => {
 
     const [visible, setVisible] = useState(false);
     const { setShowSearch, getCartCount } = useContext(ShopContext);
@@ -70,4 +70,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavBar
