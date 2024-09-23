@@ -35,9 +35,8 @@ const About = () => {
           <b>Exceptional Customer Service:</b>
           <p className='text-gray-600'>Our team of dedicated professionals is here to assist you the way, ensuring your satisfaction is our top priority.</p>
         </div>
-
-        <NewsLetterBox />
       </div>
+      <NewsLetterBox />
     </div>
 
   )
