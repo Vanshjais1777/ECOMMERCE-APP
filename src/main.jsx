@@ -3,6 +3,7 @@ import App from './App.jsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import ShopContextProvider from './context/ShopContext.jsx'
+import { assets } from './assets/assets.js'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -10,4 +11,4 @@ createRoot(document.getElementById('root')).render(
       <App />
     </ShopContextProvider>
   </BrowserRouter>,
-)
+) 
